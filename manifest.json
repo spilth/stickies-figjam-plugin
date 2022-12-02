@@ -1,0 +1,10 @@
+{
+  "name": "Stickies",
+  "id": "1138563997188272767",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figjam"
+  ],
+  "ui": "ui.html"
+}
