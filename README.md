@@ -1,40 +1,24 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# Stickies FigJam Plugin
 
-  https://www.figma.com/plugin-docs/setup/
+Make FigJam Stickies work like stickies.io Stickies
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+## Getting Started
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
-
-  https://nodejs.org/en/download/
-
-Next, install TypeScript using the command:
-
-  npm install -g typescript
-
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
-
-  npm install --save-dev @figma/plugin-typings
-
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
-
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
-
-For more information, visit https://www.typescriptlang.org/
-
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
-
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+- Checkout the project
+- Change into the project directory
+- Run `npm install`
+- Run `npm run watch`
+- Open Figma
+- Click on **Home**
+- Click on the dropdown by your name in the upper right
+- Choose **Plugins**
+- Click **New** > **Import plugin from manifest...**
+- Navigate to the project directory and select `manifest.json`
+- Click **Open**
+- Create a new FigJam file (or open an existing one)
+- Right-click the background and choose **Plugins** > **Development** > **Stickies**
+- While Stickies is running, create a Sticky note and type the following:
+    - `I like` and the Sticky will turn green
+    - `I wish` and the Sticky will turn red
+    - `I wonder` and the Sticky wil turn orange
+    - `I will` or `We will` and the Sticky will turn blue
