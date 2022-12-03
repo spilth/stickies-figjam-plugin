@@ -30,5 +30,9 @@ figma.on("selectionchange", () => {
     if (text.startsWith("i wonder")) {
       setFill(node, 1.0, 0.77, 0.44);
     }
+
+    if (text.startsWith("we will") || text.startsWith("i will")) {
+      setFill(node, 0.15, 0.73, 0.9);
+    }
   });
 });
