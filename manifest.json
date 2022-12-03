@@ -5,6 +5,5 @@
   "main": "code.js",
   "editorType": [
     "figjam"
-  ],
-  "ui": "ui.html"
+  ]
 }
